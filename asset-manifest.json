@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/portafolio-juanamaya/static/css/main.e66fa832.css",
+    "main.js": "/portafolio-juanamaya/static/js/main.5f110e9b.js",
+    "index.html": "/portafolio-juanamaya/index.html",
+    "main.e66fa832.css.map": "/portafolio-juanamaya/static/css/main.e66fa832.css.map",
+    "main.5f110e9b.js.map": "/portafolio-juanamaya/static/js/main.5f110e9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e66fa832.css",
+    "static/js/main.5f110e9b.js"
+  ]
+}

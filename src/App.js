@@ -1,16 +1,29 @@
 import { AnimatePresence } from 'framer-motion';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import Description from './components/content/Description';
+import Intro from './components/content/Intro';
 import Projects from './components/content/Projects';
 import Frame from './components/Frame';
 import NavMenu from './components/NavMenu';
 import NoiseBG from './components/threeBG/NoiseBG';
+import { useState, useEffect } from "react";
 
 function App() {
   const location = useLocation();
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setVisible(false);
+    }, 5000);
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <div>
+      {visible &&
+        <Intro />
+      }
       <header>
         <div className='text-white fixed left-5 z-50 select-none'>
           <h1 className='text-2xl'>

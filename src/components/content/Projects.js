@@ -157,7 +157,7 @@ export default function Projects() {
     };
 
     return (
-        <motion.div className="flex flex-col bottom-0 right-12 w-fit absolute gap-2 overflow-y-scroll h-screen pt-36 pb-24 custom-scrollbar" variants={pageVariants} initial="hidden" animate="visible" exit="exit">
+        <motion.div className="flex flex-col bottom-0 right-12 w-fit absolute gap-2 overflow-y-scroll h-screen justify-center pt-80 pb-24 custom-scrollbar" variants={pageVariants} initial="hidden" animate="visible" exit="exit">
             {PROJECTS.map((project) => <div className='text-white z-30 select-none p-2 rounded-xl bg-transparent transition-colors duration-300 hover:bg-white/20' key={project.id}>
                 <div onClick={() => openProjectModal(project)}>
                     <span className="text-lg font-bold lg:text-2xl">// {project.name}</span>

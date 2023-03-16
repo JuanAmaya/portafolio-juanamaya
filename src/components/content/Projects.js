@@ -17,7 +17,52 @@ export default function Projects() {
 
     const PROJECTS = [
         {
-            id: 1,
+            id: 3,
+            name: "POKEMON",
+            image: "./showcase/pokemon/pokemonPage.jpg",
+            imgCover: "./showcase/pokemon/pokemonCover.jpg",
+            desc: "Proyecto en el que se agarran datos de la PokeApi con los que se forma un juego en el que el usuario tiene que adivinar que Pokemon es el que se muestra, tiene 3 opciones para adivinar, cada partida tiene 3 vidas y un minuto, entre mas adivine mas puntos gana y sube de nivel, además hay dos dificultades, y la opción de elegir entre el idioma español o el inglés.",
+            technologies: [
+                {
+                    id: 0,
+                    image: "./icons/react.png",
+                    name: "React"
+                },
+                {
+                    id: 1,
+                    image: "./icons/nextjs.png",
+                    name: "Next.js"
+                },
+                {
+                    id: 2,
+                    image: "./icons/chakraui.png",
+                    name: "Chakra UI"
+                },
+                {
+                    id: 3,
+                    image: "./icons/pokeapi.png",
+                    name: "PokeAPI"
+                },
+            ],
+            watchOptions: [
+                {
+                    id: 12,
+                    image: "./icons/github.png",
+                    link: "https://github.com/JuanAmaya/pokemon-guess",
+                    title: "Código",
+                    nameAlt: "Github"
+                },
+                {
+                    id: 13,
+                    image: "./icons/eye.png",
+                    link: "https://pokemon-guess-pied.vercel.app/",
+                    title: "Página",
+                    nameAlt: "ojo"
+                },
+            ]
+        },
+        {
+            id: 2,
             name: "FORTNITE",
             image: "./showcase/fortnite/fortnitePage.jpg",
             imgCover: "./showcase/fortnite/fortniteCover.jpg",
@@ -60,54 +105,10 @@ export default function Projects() {
                     nameAlt: "ojo"
                 },
             ]
+
         },
         {
-            id: 2,
-            name: "POKEMON",
-            image: "./showcase/pokemon/pokemonPage.jpg",
-            imgCover: "./showcase/pokemon/pokemonCover.jpg",
-            desc: "Proyecto en el que se agarran datos de la PokeApi con los que se forma un juego en el que el usuario tiene que adivinar que Pokemon es el que se muestra, tiene 3 opciones para adivinar, cada partida tiene 3 vidas y un minuto, entre mas adivine mas puntos gana y sube de nivel, además hay dos dificultades.",
-            technologies: [
-                {
-                    id: 0,
-                    image: "./icons/react.png",
-                    name: "React"
-                },
-                {
-                    id: 1,
-                    image: "./icons/nextjs.png",
-                    name: "Next.js"
-                },
-                {
-                    id: 2,
-                    image: "./icons/chakraui.png",
-                    name: "Chakra UI"
-                },
-                {
-                    id: 3,
-                    image: "./icons/pokeapi.png",
-                    name: "PokeAPI"
-                },
-            ],
-            watchOptions: [
-                {
-                    id: 12,
-                    image: "./icons/github.png",
-                    link: "https://github.com/JuanAmaya/pokemon-guess",
-                    title: "Código",
-                    nameAlt: "Github"
-                },
-                {
-                    id: 13,
-                    image: "./icons/eye.png",
-                    link: "https://pokemon-guess-pied.vercel.app/",
-                    title: "Página",
-                    nameAlt: "ojo"
-                },
-            ]
-        },
-        {
-            id: 3,
+            id: 1,
             name: "RANDOM STARS",
             image: "./showcase/brawlStars/brawlPage.jpg",
             imgCover: "./showcase/brawlStars/brawlCover.jpg",

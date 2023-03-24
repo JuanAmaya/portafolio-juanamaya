@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portafolio-juanamaya/static/css/main.71a17b91.css",
-    "main.js": "/portafolio-juanamaya/static/js/main.01e96715.js",
+    "main.js": "/portafolio-juanamaya/static/js/main.ad947894.js",
     "index.html": "/portafolio-juanamaya/index.html",
     "main.71a17b91.css.map": "/portafolio-juanamaya/static/css/main.71a17b91.css.map",
-    "main.01e96715.js.map": "/portafolio-juanamaya/static/js/main.01e96715.js.map"
+    "main.ad947894.js.map": "/portafolio-juanamaya/static/js/main.ad947894.js.map"
   },
   "entrypoints": [
     "static/css/main.71a17b91.css",
-    "static/js/main.01e96715.js"
+    "static/js/main.ad947894.js"
   ]
 }

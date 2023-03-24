@@ -1,5 +1,5 @@
 import { AnimatePresence } from 'framer-motion';
-import { Route, Routes, useLocation } from 'react-router-dom';
+import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import Description from './components/content/Description';
 import Intro from './components/content/Intro';
 import Projects from './components/content/Projects';
@@ -51,6 +51,7 @@ function App() {
               <Routes location={location} key={location.pathname}>
                 <Route path="/" element={<Description />} />
                 <Route path="/proyectos" element={<Projects />} />
+                <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>
             </AnimatePresence>
           </main>

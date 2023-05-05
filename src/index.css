@@ -31,7 +31,7 @@ body {
 
 .different-scrollbar {
   scrollbar-width: thin;
-  scrollbar-color: rgba(255, 255, 255, 0.7) rgba(0, 0, 0, 0.7);
+  scrollbar-color: rgba(40, 59, 57, 0.9) rgba(0, 0, 0, 0.7);
 }
 
 .different-scrollbar::-webkit-scrollbar {
@@ -39,12 +39,12 @@ body {
 }
 
 .different-scrollbar::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(40, 59, 57, 0.7);
   transition: all 1s ease-in-out;
 }
 
 .different-scrollbar::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(40, 59, 57, 0.9);
 }
 
 .different-scrollbar::-webkit-scrollbar-track {

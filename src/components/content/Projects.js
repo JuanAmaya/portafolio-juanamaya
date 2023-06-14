@@ -17,6 +17,46 @@ export default function Projects() {
 
     const PROJECTS = [
         {
+            id: 4,
+            name: "HIT AND BLOW",
+            image: "./showcase/hitAndBlow/hitAndBlowPage.jpg",
+            imgCover: "./showcase/hitAndBlow/hitAndBlowCover.jpg",
+            desc: "Proyecto basado en el juego de mesa Mastermind, en donde la persona tiene que adivinar los cuatro colores en su orden correcto para ganar, con 8 oportunidades para resolverlo, tiene dos modos, el fácil en donde los colores a adivinar no se repiten y el difícil en el que la respuesta puede que este un color múltiples veces, se le indica después de cada turno al usuario si tuvo hits o blow con el color amarillo o verde, dependiendo de lo que obtuvo, contiene instrucciones para que el usuario entienda el juego.",
+            technologies: [
+                {
+                    id: 0,
+                    image: "./icons/react.png",
+                    name: "React"
+                },
+                {
+                    id: 1,
+                    image: "./icons/tailwind.png",
+                    name: "Tailwind CSS"
+                },
+                {
+                    id: 2,
+                    image: "./icons/framerMotion.png",
+                    name: "Framer Motion"
+                },
+            ],
+            watchOptions: [
+                {
+                    id: 12,
+                    image: "./icons/github.png",
+                    link: "https://github.com/JuanAmaya/hit-and-blow",
+                    title: "Código",
+                    nameAlt: "Github"
+                },
+                {
+                    id: 13,
+                    image: "./icons/eye.png",
+                    link: "https://juanamaya.github.io/hit-and-blow/",
+                    title: "Página",
+                    nameAlt: "ojo"
+                },
+            ]
+        },
+        {
             id: 3,
             name: "POKEMON",
             image: "./showcase/pokemon/pokemonPage.jpg",
@@ -42,6 +82,11 @@ export default function Projects() {
                     id: 3,
                     image: "./icons/pokeapi.png",
                     name: "PokeAPI"
+                },
+                {
+                    id: 4,
+                    image: "./icons/framerMotion.png",
+                    name: "Framer Motion"
                 },
             ],
             watchOptions: [
@@ -87,6 +132,11 @@ export default function Projects() {
                     id: 3,
                     image: "./icons/fortniteapi.png",
                     name: "Fortnite API"
+                },
+                {
+                    id: 4,
+                    image: "./icons/framerMotion.png",
+                    name: "Framer Motion"
                 },
             ],
             watchOptions: [
@@ -158,7 +208,7 @@ export default function Projects() {
     };
 
     return (
-        <motion.div className="flex flex-col bottom-0 right-12 w-fit absolute gap-2 overflow-y-scroll h-screen justify-center pt-80 pb-24 custom-scrollbar" variants={pageVariants} initial="hidden" animate="visible" exit="exit">
+        <motion.div className="flex flex-col bottom-0 right-12 w-fit absolute gap-2 overflow-y-scroll h-screen justify-center pt-32rem pb-24 custom-scrollbar" variants={pageVariants} initial="hidden" animate="visible" exit="exit">
             {PROJECTS.map((project) => <div className='text-white z-30 select-none p-2 rounded-xl bg-transparent transition-colors duration-300 hover:bg-white/20' key={project.id}>
                 <div onClick={() => openProjectModal(project)}>
                     <span className="text-lg font-bold lg:text-2xl">// {project.name}</span>

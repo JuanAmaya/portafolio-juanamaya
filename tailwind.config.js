@@ -11,6 +11,9 @@ module.exports = {
       colors: {
         "main-green": "#283B39",
         "sub-green": "#5E7674"
+      },
+      padding: {
+        '32rem': '32rem',
       }
     },
   },

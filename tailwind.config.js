@@ -10,11 +10,12 @@ module.exports = {
       },
       colors: {
         "main-green": "#283B39",
-        "sub-green": "#5E7674"
+        "sub-green": "#5E7674",
+        'underline-green': '#4B5F5D',
       },
       padding: {
         '32rem': '32rem',
-      }
+      },
     },
   },
   plugins: [],

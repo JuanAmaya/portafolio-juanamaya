@@ -7,6 +7,7 @@ import Frame from './components/Frame';
 import NavMenu from './components/NavMenu';
 import NoiseBG from './components/threeBG/NoiseBG';
 import { useState, useEffect } from "react";
+import ProjectsMenu from './components/content/ProjectsMenu';
 
 function App() {
   const location = useLocation();
@@ -50,7 +51,7 @@ function App() {
             <AnimatePresence>
               <Routes location={location} key={location.pathname}>
                 <Route path="/" element={<Description />} />
-                <Route path="/proyectos" element={<Projects />} />
+                <Route path="/proyectos" element={<ProjectsMenu />} />
                 <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>
             </AnimatePresence>

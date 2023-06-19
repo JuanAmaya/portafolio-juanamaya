@@ -1,8 +1,8 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Modal from "../Modal";
 import { motion } from "framer-motion";
 
-export default function Projects() {
+export default function Projects({ projectMode }) {
     const pageVariants = {
         hidden: {
             opacity: 0,
@@ -15,7 +15,7 @@ export default function Projects() {
         }
     };
 
-    const PROJECTS = [
+    const DYNAMIC_PROJECTS = [
         {
             id: 4,
             name: "HIT AND BLOW",
@@ -199,8 +199,61 @@ export default function Projects() {
         },
     ];
 
+    const LANDING_PROJECTS = [
+        {
+            id: 1,
+            name: "Spiderverse",
+            image: "./showcaseLanding/acrossSpiderverse/spiderPage.jpg",
+            imgCover: "./showcaseLanding/acrossSpiderverse/spiderCover.jpg",
+            desc: "Un proyecto de una landing page sobre la película Spiderman: Across the spiderverse, en donde se muestran diferentes imágenes y videos sobre este, se mencionan compañías y personas las cuales trabajaron en su desarrollo, como son los directores, los actores de voz, entre otros.",
+            technologies: [
+                {
+                    id: 0,
+                    image: "./icons/react.png",
+                    name: "React"
+                },
+                {
+                    id: 1,
+                    image: "./icons/tailwind.png",
+                    name: "Tailwind CSS"
+                },
+                {
+                    id: 2,
+                    image: "./icons/framerMotion.png",
+                    name: "Framer Motion"
+                },
+            ],
+            watchOptions: [
+                {
+                    id: 10,
+                    image: "./icons/github.png",
+                    link: "https://github.com/JuanAmaya/spiderverse-lp",
+                    title: "Código",
+                    nameAlt: "Github"
+                },
+                {
+                    id: 11,
+                    image: "./icons/eye.png",
+                    link: "https://juanamaya.github.io/spiderverse-lp/",
+                    title: "Página",
+                    nameAlt: "ojo"
+                },
+            ]
+        },
+    ];
+
     const [isOpen, setIsOpen] = useState(false);
     const [projectModal, setProjectModal] = useState(null);
+    const [showMode, setShowMode] = useState(DYNAMIC_PROJECTS);
+
+    useEffect(() => {
+        if (!projectMode) {
+            setShowMode(DYNAMIC_PROJECTS);
+        } else {
+            setShowMode(LANDING_PROJECTS);
+        }
+    }, [projectMode]);
+
 
     const openProjectModal = (projectObject) => {
         setProjectModal(<Modal setIsOpen={setIsOpen} proyectObject={projectObject} />);
@@ -208,12 +261,12 @@ export default function Projects() {
     };
 
     return (
-        <motion.div className="flex flex-col bottom-0 right-12 w-fit absolute gap-2 overflow-y-scroll h-screen justify-center pt-32rem pb-24 custom-scrollbar" variants={pageVariants} initial="hidden" animate="visible" exit="exit">
-            {PROJECTS.map((project) => <div className='text-white z-30 select-none p-2 rounded-xl bg-transparent transition-colors duration-300 hover:bg-white/20' key={project.id}>
-                <div onClick={() => openProjectModal(project)}>
+        <motion.div className={`flex flex-col bottom-0 right-12 w-fit absolute gap-2 overflow-y-scroll h-screen justify-center pb-24 custom-scrollbar pt-32rem`} variants={pageVariants} initial="hidden" animate="visible" exit="exit">
+            {showMode.map((project) => <div className='text-white z-30 select-none p-2 rounded-xl bg-transparent transition-colors duration-300 hover:bg-white/20' key={project.id}>
+                <motion.div variants={pageVariants} onClick={() => openProjectModal(project)}>
                     <span className="text-lg font-bold lg:text-2xl">// {project.name}</span>
                     <img src={project.image} alt={`Demostracion de la pagina de ${project.name}`} className=" w-40 h-24 object-cover lg:w-80 lg:h-40" />
-                </div>
+                </motion.div>
 
             </div>)}
             {isOpen && projectModal}

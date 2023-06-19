@@ -38,7 +38,7 @@ export default function Modal({ setIsOpen, proyectObject }) {
                     <div className="select-none mt-6">
                         <h3 className="text-2xl italic mb-2 text-sub-green">Tecnologías utilizadas</h3>
                         <div className="grid grid-cols-2 gap-4 justify-items-center	md:grid-cols-4">
-                            {proyectObject.technologies.map((tech) => <div className="grid justify-items-center items-center w-20 gap-1 border-2 border-main-green" key={tech.id}>
+                            {proyectObject.technologies.map((tech) => <div className="grid justify-items-center items-center w-20 gap-1 border-2 border-main-green overflow-hidden" key={tech.id}>
                                 <span className="text-center text-lg border-b-2 border-main-green w-full">{tech.name}</span>
                                 <img src={tech.image} alt={`Icono de ${tech.name}`} className="w-16" />
                             </div>)}

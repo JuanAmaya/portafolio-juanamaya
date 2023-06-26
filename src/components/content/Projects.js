@@ -202,7 +202,7 @@ export default function Projects({ projectMode }) {
     const LANDING_PROJECTS = [
         {
             id: 1,
-            name: "Spiderverse",
+            name: "Across The Spiderverse",
             image: "./showcaseLanding/acrossSpiderverse/spiderPage.jpg",
             imgCover: "./showcaseLanding/acrossSpiderverse/spiderCover.jpg",
             desc: "Un proyecto de una landing page sobre la película Spiderman: Across the spiderverse, en donde se muestran diferentes imágenes y videos sobre este, se mencionan compañías y personas las cuales trabajaron en su desarrollo, como son los directores, los actores de voz, entre otros.",
@@ -240,6 +240,46 @@ export default function Projects({ projectMode }) {
                 },
             ]
         },
+        {
+            id: 2,
+            name: "Blade Runner 2049",
+            image: "./showcaseLanding/br2049/brPage.jpg",
+            imgCover: "./showcaseLanding/br2049/brCover.jpg",
+            desc: "Un proyecto de una landing page sobre la película Blade Runner 2049, en el cual se muestra una descripción, imágenes y videos sobre esta, personajes y personas envueltas en su desarrollo, enlaces para la compra del filme, con distintas animaciones.",
+            technologies: [
+                {
+                    id: 0,
+                    image: "./icons/react.png",
+                    name: "React"
+                },
+                {
+                    id: 1,
+                    image: "./icons/tailwind.png",
+                    name: "Tailwind CSS"
+                },
+                {
+                    id: 2,
+                    image: "./icons/framerMotion.png",
+                    name: "Framer Motion"
+                },
+            ],
+            watchOptions: [
+                {
+                    id: 10,
+                    image: "./icons/github.png",
+                    link: "https://github.com/JuanAmaya/blade-runner",
+                    title: "Código",
+                    nameAlt: "Github"
+                },
+                {
+                    id: 11,
+                    image: "./icons/eye.png",
+                    link: "https://juanamaya.github.io/blade-runner/",
+                    title: "Página",
+                    nameAlt: "ojo"
+                },
+            ]
+        },
     ];
 
     const [isOpen, setIsOpen] = useState(false);
@@ -264,8 +304,8 @@ export default function Projects({ projectMode }) {
         <motion.div className={`flex flex-col bottom-0 right-12 w-fit absolute gap-2 overflow-y-scroll h-screen justify-center pb-24 custom-scrollbar pt-32rem`} variants={pageVariants} initial="hidden" animate="visible" exit="exit">
             {showMode.map((project) => <div className='text-white z-30 select-none p-2 rounded-xl bg-transparent transition-colors duration-300 hover:bg-white/20' key={project.id}>
                 <motion.div variants={pageVariants} onClick={() => openProjectModal(project)}>
-                    <span className="text-lg font-bold lg:text-2xl">// {project.name}</span>
-                    <img src={project.image} alt={`Demostracion de la pagina de ${project.name}`} className=" w-40 h-24 object-cover lg:w-80 lg:h-40" />
+                    <span className="text-lg font-bold lg:text-2xl break-words w-40 md:w-80 flex">// {project.name}</span>
+                    <img src={project.image} alt={`Demostracion de la pagina de ${project.name}`} className=" w-40 h-24 object-cover md:w-80 md:h-40" />
                 </motion.div>
 
             </div>)}

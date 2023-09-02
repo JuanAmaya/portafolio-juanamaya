@@ -30,7 +30,7 @@ function App() {
           <h1 className='text-2xl'>
             Juan Pablo Amaya García
           </h1>
-          <span className='text-md'>Estudiante // Desarrollador</span>
+          <span className='text-md'>Egresado // Desarrollador</span>
         </div>
       </header>
 

@@ -17,6 +17,46 @@ export default function Projects({ projectMode }) {
 
     const DYNAMIC_PROJECTS = [
         {
+            id: 5,
+            name: "WORD|",
+            image: "./showcase/word/wordPage.jpg",
+            imgCover: "./showcase/word/wordCover.jpg",
+            desc: "Proyecto el cual es un juego en que muestran 4 letras y el usuario tiene que acomodarlas para formar la palabra correcta, tiene 3 intentos, pierde uno si se equivoca o se tarda 10 segundos en contestar, las palabras las cuales saque bien se guardan en su diccionario en la cual se muestra el significado, sinónimos, antónimos de estas palabras, se hace uso de dos APIs, Random Word API se usa para generar las palabras aleatorias las cuales tiene que adivinar el usuario y Free Dictionary API para obtener las definiciones de las palabras.",
+            technologies: [
+                {
+                    id: 0,
+                    image: "./icons/react.png",
+                    name: "React"
+                },
+                {
+                    id: 1,
+                    image: "./icons/tailwind.png",
+                    name: "Tailwind CSS"
+                },
+                {
+                    id: 2,
+                    image: "./icons/framerMotion.png",
+                    name: "Framer Motion"
+                },
+            ],
+            watchOptions: [
+                {
+                    id: 12,
+                    image: "./icons/github.png",
+                    link: "https://github.com/JuanAmaya/words",
+                    title: "Código",
+                    nameAlt: "Github"
+                },
+                {
+                    id: 13,
+                    image: "./icons/eye.png",
+                    link: "https://words-nu.vercel.app/",
+                    title: "Página",
+                    nameAlt: "ojo"
+                },
+            ]
+        },
+        {
             id: 4,
             name: "HIT AND BLOW",
             image: "./showcase/hitAndBlow/hitAndBlowPage.jpg",

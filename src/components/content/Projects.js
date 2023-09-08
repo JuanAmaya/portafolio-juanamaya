@@ -30,11 +30,16 @@ export default function Projects({ projectMode }) {
                 },
                 {
                     id: 1,
+                    image: "./icons/nextjs.png",
+                    name: "Next.js"
+                },
+                {
+                    id: 2,
                     image: "./icons/tailwind.png",
                     name: "Tailwind CSS"
                 },
                 {
-                    id: 2,
+                    id: 3,
                     image: "./icons/framerMotion.png",
                     name: "Framer Motion"
                 },

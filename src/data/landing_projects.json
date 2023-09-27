@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Across The Spiderverse",
+    "image": "./showcaseLanding/acrossSpiderverse/spiderPage.jpg",
+    "imgCover": "./showcaseLanding/acrossSpiderverse/spiderCover.jpg",
+    "desc": "Un proyecto de una landing page sobre la película Spiderman: Across the spiderverse, en donde se muestran diferentes imágenes y videos sobre este, se mencionan compañías y personas las cuales trabajaron en su desarrollo, como son los directores, los actores de voz, entre otros.",
+    "technologies": [
+      {
+        "id": 0,
+        "image": "./icons/react.png",
+        "name": "React"
+      },
+      {
+        "id": 1,
+        "image": "./icons/tailwind.png",
+        "name": "Tailwind CSS"
+      },
+      {
+        "id": 2,
+        "image": "./icons/framerMotion.png",
+        "name": "Framer Motion"
+      }
+    ],
+    "watchOptions": [
+      {
+        "id": 10,
+        "image": "./icons/github.png",
+        "link": "https://github.com/JuanAmaya/spiderverse-lp",
+        "title": "Código",
+        "nameAlt": "Github"
+      },
+      {
+        "id": 11,
+        "image": "./icons/eye.png",
+        "link": "https://juanamaya.github.io/spiderverse-lp/",
+        "title": "Página",
+        "nameAlt": "ojo"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Blade Runner 2049",
+    "image": "./showcaseLanding/br2049/brPage.jpg",
+    "imgCover": "./showcaseLanding/br2049/brCover.jpg",
+    "desc": "Un proyecto de una landing page sobre la película Blade Runner 2049, en el cual se muestra una descripción, imágenes y videos sobre esta, personajes y personas envueltas en su desarrollo, enlaces para la compra del filme, con distintas animaciones.",
+    "technologies": [
+      {
+        "id": 0,
+        "image": "./icons/react.png",
+        "name": "React"
+      },
+      {
+        "id": 1,
+        "image": "./icons/tailwind.png",
+        "name": "Tailwind CSS"
+      },
+      {
+        "id": 2,
+        "image": "./icons/framerMotion.png",
+        "name": "Framer Motion"
+      }
+    ],
+    "watchOptions": [
+      {
+        "id": 10,
+        "image": "./icons/github.png",
+        "link": "https://github.com/JuanAmaya/blade-runner",
+        "title": "Código",
+        "nameAlt": "Github"
+      },
+      {
+        "id": 11,
+        "image": "./icons/eye.png",
+        "link": "https://juanamaya.github.io/blade-runner/",
+        "title": "Página",
+        "nameAlt": "ojo"
+      }
+    ]
+  }
+]

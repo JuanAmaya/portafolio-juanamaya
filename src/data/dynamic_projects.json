@@ -29,14 +29,14 @@
     ],
     "watchOptions": [
       {
-        "id": 12,
+        "id": 10,
         "image": "./icons/github.png",
         "link": "https://github.com/JuanAmaya/words",
         "title": "Código",
         "nameAlt": "Github"
       },
       {
-        "id": 13,
+        "id": 11,
         "image": "./icons/eye.png",
         "link": "https://words-nu.vercel.app/",
         "title": "Página",
@@ -69,14 +69,14 @@
     ],
     "watchOptions": [
       {
-        "id": 12,
+        "id": 10,
         "image": "./icons/github.png",
         "link": "https://github.com/JuanAmaya/hit-and-blow",
         "title": "Código",
         "nameAlt": "Github"
       },
       {
-        "id": 13,
+        "id": 11,
         "image": "./icons/eye.png",
         "link": "https://juanamaya.github.io/hit-and-blow/",
         "title": "Página",
@@ -119,14 +119,14 @@
     ],
     "watchOptions": [
       {
-        "id": 12,
+        "id": 10,
         "image": "./icons/github.png",
         "link": "https://github.com/JuanAmaya/pokemon-guess",
         "title": "Código",
         "nameAlt": "Github"
       },
       {
-        "id": 13,
+        "id": 11,
         "image": "./icons/eye.png",
         "link": "https://pokemon-guess-pied.vercel.app/",
         "title": "Página",
@@ -209,14 +209,14 @@
     ],
     "watchOptions": [
       {
-        "id": 12,
+        "id": 10,
         "image": "./icons/github.png",
         "link": "https://github.com/JuanAmaya/RandomStars",
         "title": "Código",
         "nameAlt": "Github"
       },
       {
-        "id": 13,
+        "id": 11,
         "image": "./icons/eye.png",
         "link": "https://juanamaya.github.io/RandomStars/index.html",
         "title": "Página",

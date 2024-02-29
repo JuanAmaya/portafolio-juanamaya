@@ -1,5 +1,50 @@
 [
   {
+    "id": 6,
+    "name": "Splatoon",
+    "image": "./showcase/splatoon/splatoonPage.jpg",
+    "imgCover": "./showcase/splatoon/splatoonCover.jpg",
+    "desc": "Proyecto el cual agarra datos de la API del juego Splatoon, muestra los diferentes modos que están disponibles junto con el nombre e imagen de las pistas, el tiempo en que estarán disponibles, se puede ver los modos y sus pistas que estarán en el futuro, igualmente se muestra en el modo de Salmon Run, las armas, la pista y el jefe que estará en la rotación de ese momento, el evento el cual transcurrirá, la ropa que esta disponible para ordenar con un contador el cual indica cuando se van, y los resultados de todos los Splatfest que han transcurrido con sus respectivos datos.",
+    "technologies": [
+      {
+        "id": 0,
+        "image": "./icons/react.png",
+        "name": "React"
+      },
+      {
+        "id": 1,
+        "image": "./icons/nextjs.png",
+        "name": "Next.js"
+      },
+      {
+        "id": 2,
+        "image": "./icons/tailwind.png",
+        "name": "Tailwind CSS"
+      },
+      {
+        "id": 3,
+        "image": "./icons/typescript.png",
+        "name": "Type Script"
+      }
+    ],
+    "watchOptions": [
+      {
+        "id": 10,
+        "image": "./icons/github.png",
+        "link": "https://github.com/JuanAmaya/splatoon2049",
+        "title": "Código",
+        "nameAlt": "Github"
+      },
+      {
+        "id": 11,
+        "image": "./icons/eye.png",
+        "link": "https://splatoon-sigma.vercel.app/",
+        "title": "Página",
+        "nameAlt": "ojo"
+      }
+    ]
+  },
+  {
     "id": 5,
     "name": "WORD|",
     "image": "./showcase/word/wordPage.jpg",

@@ -14,7 +14,7 @@ module.exports = {
         'underline-green': '#4B5F5D',
       },
       padding: {
-        '32rem': '32rem',
+        '38rem': '38rem',
       },
     },
   },

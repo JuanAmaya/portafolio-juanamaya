@@ -1,5 +1,40 @@
 [
   {
+    "id": 7,
+    "name": "NEWS2049",
+    "image": "./showcase/news2049/news2049Page.jpg",
+    "imgCover": "./showcase/news2049/news2049Cover.jpg",
+    "desc": "Proyecto que hace uso de TheNewsAPI para agarrar 3 de las noticias más recientes del mundo y mostrarlas de manera resumida, y si el usuario esta interesado puede ir a leer la nota completa en la pagina oficial.",
+    "technologies": [
+      {
+        "id": 0,
+        "image": "./icons/react.png",
+        "name": "React"
+      },
+      {
+        "id": 1,
+        "image": "./icons/tailwind.png",
+        "name": "Tailwind CSS"
+      }
+    ],
+    "watchOptions": [
+      {
+        "id": 10,
+        "image": "./icons/github.png",
+        "link": "https://github.com/JuanAmaya/news2049",
+        "title": "Código",
+        "nameAlt": "Github"
+      },
+      {
+        "id": 11,
+        "image": "./icons/eye.png",
+        "link": "https://juanamaya.github.io/news2049/",
+        "title": "Página",
+        "nameAlt": "ojo"
+      }
+    ]
+  },
+  {
     "id": 6,
     "name": "Splatoon",
     "image": "./showcase/splatoon/splatoonPage.jpg",

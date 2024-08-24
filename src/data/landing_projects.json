@@ -78,5 +78,45 @@
         "nameAlt": "ojo"
       }
     ]
+  },
+  {
+    "id": 3,
+    "name": "Aespa",
+    "image": "./showcaseLanding/aespaBlog/aespaPage.jpg",
+    "imgCover": "./showcaseLanding/aespaBlog/aespaCover.jpg",
+    "desc": "Una página web inspirada en los sitios web de los principios del 2000, con la temática de la banda Aespa, mostrando sus diferentes álbumes, videos musicales, entre otras cosas.",
+    "technologies": [
+      {
+        "id": 0,
+        "image": "./icons/react.png",
+        "name": "React"
+      },
+      {
+        "id": 1,
+        "image": "./icons/tailwind.png",
+        "name": "Tailwind CSS"
+      },
+      {
+        "id": 2,
+        "image": "./icons/framerMotion.png",
+        "name": "Framer Motion"
+      }
+    ],
+    "watchOptions": [
+      {
+        "id": 10,
+        "image": "./icons/github.png",
+        "link": "https://github.com/JuanAmaya/aespa-blog",
+        "title": "Código",
+        "nameAlt": "Github"
+      },
+      {
+        "id": 11,
+        "image": "./icons/eye.png",
+        "link": "https://juanamaya.github.io/aespa-blog/",
+        "title": "Página",
+        "nameAlt": "ojo"
+      }
+    ]
   }
 ]

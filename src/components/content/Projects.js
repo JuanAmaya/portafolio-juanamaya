@@ -36,7 +36,7 @@ export default function Projects({ projectMode }) {
     };
 
     return (
-        <motion.div className={`flex flex-col bottom-0 right-12 w-fit absolute gap-2 overflow-y-scroll h-screen justify-center pb-24 custom-scrollbar pt-50rem`} variants={pageVariants} initial="hidden" animate="visible" exit="exit">
+        <motion.div className={`flex flex-col bottom-0 right-12 w-fit absolute gap-2 overflow-y-scroll h-screen justify-center pb-24 custom-scrollbar ${projectMode ? "pt-72" : "pt-50rem "}`} variants={pageVariants} initial="hidden" animate="visible" exit="exit">
             {showMode.map((project) => <div className='text-white z-30 select-none p-2 rounded-xl bg-transparent transition-colors duration-300 hover:bg-white/20' key={project.id}>
                 <motion.div variants={pageVariants} onClick={() => openProjectModal(project)}>
                     <span className="text-lg font-bold lg:text-2xl break-words w-40 md:w-80 flex"> &#47;&#47; {project.name}</span>

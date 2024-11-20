@@ -1,5 +1,45 @@
 [
   {
+    "id": 8,
+    "name": "Practica KRN",
+    "image": "./showcase/practicaKRN/practicaKRNPage.jpg",
+    "imgCover": "./showcase/practicaKRN/practicaKRNCover.jpg",
+    "desc": "Proyecto en el que se pueden practicar varios temas del idioma coreano, como la sección de verbos en el que tienes que conjugar el verbo en presente, pasado o futuro, y de manera casual, educada o formal, además el usuario puede cambiar estas opciones si quiere practicar alguna conjugación en específico, en la sección de números puros, prácticas estos números viendo la palabra en coreano y tienes que escribir el numero,  o el usuario puede cambiar a ver el número y escribir la respuesta en coreano, en los números sino funciona de la misma manera, pero este aparte da la opción de elegir de cuantos dígitos quieres el número, y la sección de días de la semana, el usuario tiene que escribir el día en ingles o puede cambiar a escribirlo en coreano.",
+    "technologies": [
+      {
+        "id": 0,
+        "image": "./icons/react.png",
+        "name": "React"
+      },
+      {
+        "id": 1,
+        "image": "./icons/tailwind.png",
+        "name": "Tailwind CSS"
+      },
+      {
+        "id": 2,
+        "image": "./icons/framerMotion.png",
+        "name": "Framer Motion"
+      }
+    ],
+    "watchOptions": [
+      {
+        "id": 10,
+        "image": "./icons/github.png",
+        "link": "https://github.com/JuanAmaya/practice-korean",
+        "title": "Código",
+        "nameAlt": "Github"
+      },
+      {
+        "id": 11,
+        "image": "./icons/eye.png",
+        "link": "https://juanamaya.github.io/practice-korean/",
+        "title": "Página",
+        "nameAlt": "ojo"
+      }
+    ]
+  },
+  {
     "id": 7,
     "name": "NEWS2049",
     "image": "./showcase/news2049/news2049Page.jpg",

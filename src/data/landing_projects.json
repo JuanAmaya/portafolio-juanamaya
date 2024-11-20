@@ -1,10 +1,10 @@
 [
   {
-    "id": 1,
-    "name": "Across The Spiderverse",
-    "image": "./showcaseLanding/acrossSpiderverse/spiderPage.jpg",
-    "imgCover": "./showcaseLanding/acrossSpiderverse/spiderCover.jpg",
-    "desc": "Un proyecto de una landing page sobre la película Spiderman: Across the spiderverse, en donde se muestran diferentes imágenes y videos sobre este, se mencionan compañías y personas las cuales trabajaron en su desarrollo, como son los directores, los actores de voz, entre otros.",
+    "id": 3,
+    "name": "Aespa",
+    "image": "./showcaseLanding/aespaBlog/aespaPage.jpg",
+    "imgCover": "./showcaseLanding/aespaBlog/aespaCover.jpg",
+    "desc": "Una página web inspirada en los sitios web de los principios del 2000, con la temática de la banda Aespa, mostrando sus diferentes álbumes, videos musicales, entre otras cosas.",
     "technologies": [
       {
         "id": 0,
@@ -26,14 +26,14 @@
       {
         "id": 10,
         "image": "./icons/github.png",
-        "link": "https://github.com/JuanAmaya/spiderverse-lp",
+        "link": "https://github.com/JuanAmaya/aespa-blog",
         "title": "Código",
         "nameAlt": "Github"
       },
       {
         "id": 11,
         "image": "./icons/eye.png",
-        "link": "https://juanamaya.github.io/spiderverse-lp/",
+        "link": "https://juanamaya.github.io/aespa-blog/",
         "title": "Página",
         "nameAlt": "ojo"
       }
@@ -80,11 +80,11 @@
     ]
   },
   {
-    "id": 3,
-    "name": "Aespa",
-    "image": "./showcaseLanding/aespaBlog/aespaPage.jpg",
-    "imgCover": "./showcaseLanding/aespaBlog/aespaCover.jpg",
-    "desc": "Una página web inspirada en los sitios web de los principios del 2000, con la temática de la banda Aespa, mostrando sus diferentes álbumes, videos musicales, entre otras cosas.",
+    "id": 1,
+    "name": "Across The Spiderverse",
+    "image": "./showcaseLanding/acrossSpiderverse/spiderPage.jpg",
+    "imgCover": "./showcaseLanding/acrossSpiderverse/spiderCover.jpg",
+    "desc": "Un proyecto de una landing page sobre la película Spiderman: Across the spiderverse, en donde se muestran diferentes imágenes y videos sobre este, se mencionan compañías y personas las cuales trabajaron en su desarrollo, como son los directores, los actores de voz, entre otros.",
     "technologies": [
       {
         "id": 0,
@@ -106,14 +106,14 @@
       {
         "id": 10,
         "image": "./icons/github.png",
-        "link": "https://github.com/JuanAmaya/aespa-blog",
+        "link": "https://github.com/JuanAmaya/spiderverse-lp",
         "title": "Código",
         "nameAlt": "Github"
       },
       {
         "id": 11,
         "image": "./icons/eye.png",
-        "link": "https://juanamaya.github.io/aespa-blog/",
+        "link": "https://juanamaya.github.io/spiderverse-lp/",
         "title": "Página",
         "nameAlt": "ojo"
       }

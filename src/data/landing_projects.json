@@ -1,5 +1,45 @@
 [
   {
+    "id": 5,
+    "name": "oldjeans",
+    "image": "./showcaseLanding/oldjeans/oldjeansPage.jpg",
+    "imgCover": "./showcaseLanding/oldjeans/oldjeansCover.jpg",
+    "desc": "Este proyecto agarra inspiración de las interfaces de las primeras Macintosh con el tema de la banda NewJeans, se puede explorar los distintos proyectos lanzados por estas artistas en forma de carpetas, las cuales contienen imágenes del cover y de las miembros en esa era, además de una demo de una canción del proyecto y enlaces a distintas plataformas en las cuales se pueden escuchar.",
+    "technologies": [
+      {
+        "id": 0,
+        "image": "./icons/react.png",
+        "name": "React"
+      },
+      {
+        "id": 1,
+        "image": "./icons/tailwind.png",
+        "name": "Tailwind CSS"
+      },
+      {
+        "id": 2,
+        "image": "./icons/framerMotion.png",
+        "name": "Framer Motion"
+      }
+    ],
+    "watchOptions": [
+      {
+        "id": 10,
+        "image": "./icons/github.png",
+        "link": "https://github.com/JuanAmaya/oldjeans",
+        "title": "Código",
+        "nameAlt": "Github"
+      },
+      {
+        "id": 11,
+        "image": "./icons/eye.png",
+        "link": "https://juanamaya.github.io/oldjeans/",
+        "title": "Página",
+        "nameAlt": "ojo"
+      }
+    ]
+  },
+  {
     "id": 3,
     "name": "Aespa",
     "image": "./showcaseLanding/aespaBlog/aespaPage.jpg",

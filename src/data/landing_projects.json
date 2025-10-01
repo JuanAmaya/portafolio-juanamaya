@@ -1,5 +1,45 @@
 [
   {
+    "id": 6,
+    "name": "LE SSERAFIM",
+    "image": "./showcaseLanding/lesserafim/lesserafimPage.jpg",
+    "imgCover": "./showcaseLanding/lesserafim/lesserafimCover.jpg",
+    "desc": "Proyecto web donde el usuario puede explorar la discografía del grupo de K-pop LE SSERAFIM, sus miembros y la filosofía detrás de este grupo.",
+    "technologies": [
+      {
+        "id": 0,
+        "image": "./icons/react.png",
+        "name": "React"
+      },
+      {
+        "id": 1,
+        "image": "./icons/tailwind.png",
+        "name": "Tailwind CSS"
+      },
+      {
+        "id": 2,
+        "image": "./icons/framerMotion.png",
+        "name": "Framer Motion"
+      }
+    ],
+    "watchOptions": [
+      {
+        "id": 10,
+        "image": "./icons/github.png",
+        "link": "https://github.com/JuanAmaya/lesserafim",
+        "title": "Código",
+        "nameAlt": "Github"
+      },
+      {
+        "id": 11,
+        "image": "./icons/eye.png",
+        "link": "https://juanamaya.github.io/lesserafim/",
+        "title": "Página",
+        "nameAlt": "ojo"
+      }
+    ]
+  },
+  {
     "id": 5,
     "name": "oldjeans",
     "image": "./showcaseLanding/oldjeans/oldjeansPage.jpg",

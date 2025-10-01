@@ -1,5 +1,90 @@
 [
   {
+    "id": 10,
+    "name": "Adivina Brawler",
+    "image": "./showcase/adivinaBrawler/adivinaBrawlerPage.jpg",
+    "imgCover": "./showcase/adivinaBrawler/adivinaBrawlerCover.jpg",
+    "desc": "Proyecto web en el cual el usuario tiene que adivinar el personaje correcto del videojuego Brawl Stars, tiene 8 oportunidades y se le da pistas por medio de 4 atributos, si logra adivinar correctamente ese personaje es agregado a su colección.",
+    "technologies": [
+      {
+        "id": 0,
+        "image": "./icons/react.png",
+        "name": "React"
+      },
+      {
+        "id": 1,
+        "image": "./icons/tailwind.png",
+        "name": "Tailwind CSS"
+      },
+      {
+        "id": 2,
+        "image": "./icons/framerMotion.png",
+        "name": "Framer Motion"
+      }
+    ],
+    "watchOptions": [
+      {
+        "id": 10,
+        "image": "./icons/github.png",
+        "link": "https://github.com/JuanAmaya/adivina-brawler",
+        "title": "Código",
+        "nameAlt": "Github"
+      },
+      {
+        "id": 11,
+        "image": "./icons/eye.png",
+        "link": "https://juanamaya.github.io/adivina-brawler/",
+        "title": "Página",
+        "nameAlt": "ojo"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "HP Quiz",
+    "image": "./showcase/hpQuiz/hpQuizPage.jpg",
+    "imgCover": "./showcase/hpQuiz/hpQuizCover.jpg",
+    "desc": "Proyecto web el cual extrae datos de Potter API, el usuario puede jugar entre 4 modos, personajes, hechizos, libros y casas, dependiendo del modo se hacen diferentes preguntas, el usuario tiene 4 opciones y tiene que elegir la correcta.",
+    "technologies": [
+      {
+        "id": 0,
+        "image": "./icons/react.png",
+        "name": "React"
+      },
+      {
+        "id": 1,
+        "image": "./icons/tailwind.png",
+        "name": "Tailwind CSS"
+      },
+      {
+        "id": 2,
+        "image": "./icons/framerMotion.png",
+        "name": "Framer Motion"
+      },
+      {
+        "id": 3,
+        "image": "./icons/api.png",
+        "name": "Potter API"
+      }
+    ],
+    "watchOptions": [
+      {
+        "id": 10,
+        "image": "./icons/github.png",
+        "link": "https://github.com/JuanAmaya/harry-potter-qz",
+        "title": "Código",
+        "nameAlt": "Github"
+      },
+      {
+        "id": 11,
+        "image": "./icons/eye.png",
+        "link": "https://juanamaya.github.io/harry-potter-qz/",
+        "title": "Página",
+        "nameAlt": "ojo"
+      }
+    ]
+  },
+  {
     "id": 8,
     "name": "Practica KRN",
     "image": "./showcase/practicaKRN/practicaKRNPage.jpg",
@@ -55,6 +140,11 @@
         "id": 1,
         "image": "./icons/tailwind.png",
         "name": "Tailwind CSS"
+      },
+      {
+        "id": 2,
+        "image": "./icons/api.png",
+        "name": "TheNews API"
       }
     ],
     "watchOptions": [

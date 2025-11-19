@@ -1,5 +1,50 @@
 [
   {
+    "id": 7,
+    "name": "ibbit",
+    "image": "./showcaseLanding/ibbit/ibbitPage.jpg",
+    "imgCover": "./showcaseLanding/ibbit/ibbitCover.jpg",
+    "desc": "Proyecto web en donde el usuario puede explorar los diferentes lanzamientos del grupo ILLIT y sus miembros.",
+    "technologies": [
+      {
+        "id": 0,
+        "image": "./icons/react.png",
+        "name": "React"
+      },
+      {
+        "id": 1,
+        "image": "./icons/tailwind.png",
+        "name": "Tailwind CSS"
+      },
+      {
+        "id": 2,
+        "image": "./icons/framerMotion.png",
+        "name": "Framer Motion"
+      },
+      {
+        "id": 3,
+        "image": "./icons/typescript.png",
+        "name": "Type script"
+      }
+    ],
+    "watchOptions": [
+      {
+        "id": 10,
+        "image": "./icons/github.png",
+        "link": "https://github.com/JuanAmaya/ibbit",
+        "title": "Código",
+        "nameAlt": "Github"
+      },
+      {
+        "id": 11,
+        "image": "./icons/eye.png",
+        "link": "https://juanamaya.github.io/ibbit/",
+        "title": "Página",
+        "nameAlt": "ojo"
+      }
+    ]
+  },
+  {
     "id": 6,
     "name": "LE SSERAFIM",
     "image": "./showcaseLanding/lesserafim/lesserafimPage.jpg",

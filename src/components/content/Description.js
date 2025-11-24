@@ -14,7 +14,13 @@ export default function Description() {
     };
 
     return (
-        <motion.div className='text-white fixed bottom-12 right-12 z-40 select-none' variants={pageVariants} initial="hidden" animate="visible" exit="exit">
+        <motion.div
+            className='text-white fixed bottom-12 right-12 z-40 select-none'
+            variants={pageVariants}
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+        >
             <span className='block'>
                 Ingeniero en
             </span>

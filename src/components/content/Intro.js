@@ -1,5 +1,4 @@
-import { motion, AnimatePresence } from "framer-motion";
-import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 export default function Intro() {
     const sentenceVariants = {

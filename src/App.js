@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setVisible(false);
-    }, 5000);
+    }, 4000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -48,7 +48,7 @@ function App() {
           </div>
 
           <main>
-            <AnimatePresence>
+            <AnimatePresence mode='wait'>
               <Routes location={location} key={location.pathname}>
                 <Route path="/" element={<Description />} />
                 <Route path="/proyectos" element={<ProjectsMenu />} />

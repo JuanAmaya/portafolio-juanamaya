@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 
 export default function Modal({ setIsOpen, proyectObject }) {
+
     const modalVariants = {
         hidden: {
             opacity: 0,
@@ -15,12 +16,37 @@ export default function Modal({ setIsOpen, proyectObject }) {
         }
     };
 
+    const modalBGVariants = {
+        hidden: {
+            opacity: 0,
+        },
+        visible: {
+            opacity: 1,
+        },
+        exit: {
+            opacity: 0,
+        }
+    };
+
     return (
         <>
-            <div className="fixed inset-0 bg-black/50 z-50 backdrop-blur-sm" onClick={() => setIsOpen(false)}>
-            </div>
+            <motion.div
+                className="fixed inset-0 bg-black/50 z-50 backdrop-blur-sm"
+                onClick={() => setIsOpen(false)}
+                variants={modalBGVariants}
+                initial="hidden"
+                animate="visible"
+                exit="exit"
+            >
+            </motion.div>
 
-            <motion.div className="fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-50 bg-black max-w-2xl w-11/12 h-5/6 overflow-y-scroll pt-0 text-white different-scrollbar border-2 border-main-green" variants={modalVariants} initial="hidden" animate="visible" exit="exit">
+            <motion.div
+                className="fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-50 bg-black max-w-2xl w-11/12 h-5/6 overflow-y-scroll pt-0 text-white different-scrollbar border-2 border-main-green"
+                variants={modalVariants}
+                initial="hidden"
+                animate="visible"
+                exit="exit"
+            >
                 <div className="sticky top-0 backdrop-blur-md bg-main-green/90 w-full mb-4 p-6">
                     <div onClick={() => setIsOpen(false)} className="absolute p-1 w-fit ml-auto right-0 top-0 hover:bg-white/20">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
@@ -31,10 +57,11 @@ export default function Modal({ setIsOpen, proyectObject }) {
                     <h2 className="text-3xl text-center select-none">{proyectObject.name}</h2>
                 </div>
                 <div className="p-8 pt-4">
-                    <img src={proyectObject.imgCover} alt={`Menu de la pagina Fortnite ${proyectObject.name}`} />
+                    <img className="min-h-full" src={proyectObject.imgCover} alt={`Menu de la pagina Fortnite ${proyectObject.name}`} />
                     <div className="mt-4">
                         <p className="text-md select-none">{proyectObject.desc}</p>
                     </div>
+
                     <div className="select-none mt-6">
                         <h3 className="text-2xl italic mb-2 text-sub-green">Tecnologías utilizadas</h3>
                         <div className="grid grid-cols-2 gap-4 justify-items-center	md:grid-cols-4">
